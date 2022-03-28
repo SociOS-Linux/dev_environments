@@ -1,0 +1,8 @@
+language: python
+python:
+  - "3.6"
+dist: trusty
+sudo: false
+install:
+script:
+  - pip install -r requirements/requirements_prophet.txt
